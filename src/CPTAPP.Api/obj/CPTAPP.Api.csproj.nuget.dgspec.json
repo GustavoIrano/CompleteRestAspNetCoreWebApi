@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Api\\CPTAPP.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Api\\CPTAPP.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Api\\CPTAPP.Api.csproj",
+        "projectName": "CPTAPP.Api",
+        "projectPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Api\\CPTAPP.Api.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj": {
+                "projectPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj"
+              },
+              "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Data\\CPTAPP.Data.csproj": {
+                "projectPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Data\\CPTAPP.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj",
+        "projectName": "CPTAPP.Business",
+        "projectPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Data\\CPTAPP.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Data\\CPTAPP.Data.csproj",
+        "projectName": "CPTAPP.Data",
+        "projectPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Data\\CPTAPP.Data.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj": {
+                "projectPath": "C:\\NetCoreProjects\\CompleteRestAspNetCoreWebApi\\src\\CPTAPP.Business\\CPTAPP.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.sqlserver": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

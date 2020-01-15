@@ -1,0 +1,12 @@
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Data.deps.json
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Data.dll
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Data.pdb
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Business.dll
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Business.pdb
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.csprojAssemblyReference.cache
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.csproj.CoreCompileInputs.cache
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.AssemblyInfoInputs.cache
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.AssemblyInfo.cs
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.csproj.CopyComplete
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.dll
+C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.pdb
