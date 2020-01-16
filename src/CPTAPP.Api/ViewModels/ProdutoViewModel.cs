@@ -21,7 +21,7 @@ namespace CPTAPP.Api.ViewModels
         [StringLength(1000, ErrorMessage = "O campo {0} não pode ter mais de 1000 caracteres!")]
         public string Descricao { get; set; }
         
-        public IFormFile ImagemUpload { get; set; }
+        public string ImagemUpload { get; set; }
 
         public string Imagem { get; set; }
 
