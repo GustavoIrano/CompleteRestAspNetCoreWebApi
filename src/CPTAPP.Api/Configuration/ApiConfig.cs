@@ -23,12 +23,21 @@ namespace CPTAPP.Api.Configuration
                     .AllowCredentials());
             });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Production",
+                    builder => 
+                    builder.WithMethods("GET")
+                    .WithOrigins("https://example.ex")
+                    .SetIsOriginAllowedToAllowWildcardSubdomains()
+                    .AllowAnyHeader());
+            });
+
             return services;
         }
 
         public static IApplicationBuilder UseMvcConfiguration(this IApplicationBuilder app)
         {
-            app.UseCors("Development");
             app.UseMvc();
             app.UseHttpsRedirection();
 

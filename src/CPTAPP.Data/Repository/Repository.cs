@@ -13,10 +13,10 @@ namespace CPTAPP.Data.Repository
 {
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
-        protected readonly MyDbContext Db;
+        protected readonly ApplicationDbContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        public Repository(MyDbContext db)
+        public Repository(ApplicationDbContext db)
         {
             Db = db;
             DbSet = db.Set<TEntity>();

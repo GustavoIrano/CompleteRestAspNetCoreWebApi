@@ -11,7 +11,7 @@ namespace CPTAPP.Data.Repository
 {
     public class ProdutoRepository : Repository<Produto>, IProdutoRepository
     {
-        public ProdutoRepository(MyDbContext context) : base(context)
+        public ProdutoRepository(ApplicationDbContext context) : base(context)
         { }
 
         public async Task<Produto> ObterProdutoFornecedor(Guid id)

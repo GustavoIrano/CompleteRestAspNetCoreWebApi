@@ -21,10 +21,12 @@ namespace CPTAPP.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MyDbContext>(options =>
+            services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.AddIdentityConfiguration(Configuration);
             services.AddAutoMapper(typeof(Startup));
             services.WebApiConfig();
             services.ResolveDependencies();
@@ -35,14 +37,16 @@ namespace CPTAPP.Api
         {
             if (env.IsDevelopment())
             {
+                app.UseCors("Development");
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseCors("Production");
                 app.UseHsts();
             }
 
+            app.UseAuthentication();
             app.UseMvcConfiguration();
         }
     }

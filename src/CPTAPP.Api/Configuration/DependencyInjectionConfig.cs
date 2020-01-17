@@ -1,8 +1,10 @@
-﻿using CPTAPP.Business.Interfaces;
+﻿using CPTAPP.Api.Extensions;
+using CPTAPP.Business.Interfaces;
 using CPTAPP.Business.Notifications;
 using CPTAPP.Business.Services;
 using CPTAPP.Data.Context;
 using CPTAPP.Data.Repository;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CPTAPP.Api.Configuration
@@ -11,7 +13,7 @@ namespace CPTAPP.Api.Configuration
     {
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
-            services.AddScoped<MyDbContext>();
+            services.AddScoped<ApplicationDbContext>();
 
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
@@ -20,6 +22,9 @@ namespace CPTAPP.Api.Configuration
             services.AddScoped<INotificador, Notificador>();
             services.AddScoped<IFornecedorService, FornecedorService>();
             services.AddScoped<IProdutoService, ProdutoService>();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IUser, AspNetUser>();
 
             return services;
         }

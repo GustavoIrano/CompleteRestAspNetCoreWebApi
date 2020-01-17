@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CPTAPP.Data.Migrations
 {
-    [DbContext(typeof(MyDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20191006171853_Initial")]
     partial class Initial
     {

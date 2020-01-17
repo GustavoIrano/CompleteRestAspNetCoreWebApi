@@ -11,7 +11,7 @@ namespace CPTAPP.Data.Repository
 {
     public class EnderecoRepository : Repository<Endereco>, IEnderecoRepository
     {
-        public EnderecoRepository(MyDbContext context): base(context)
+        public EnderecoRepository(ApplicationDbContext context): base(context)
         {}
 
         public async Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId)

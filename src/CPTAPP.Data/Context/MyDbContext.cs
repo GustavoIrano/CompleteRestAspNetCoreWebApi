@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace CPTAPP.Data.Context
 {
-    public class MyDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public MyDbContext(DbContextOptions options): base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
         {
             
         }
@@ -23,7 +23,7 @@ namespace CPTAPP.Data.Context
                 .Where(p => p.ClrType == typeof(string))))
                 property.Relational().ColumnType = "varchar(100)";
 
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(MyDbContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
 
             //Impedindo o delete em cascata
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
