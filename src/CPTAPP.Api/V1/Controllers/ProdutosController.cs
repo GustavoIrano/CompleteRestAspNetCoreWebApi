@@ -1,5 +1,6 @@
 ﻿using AppMvc.Models;
 using AutoMapper;
+using CPTAPP.Api.Controllers;
 using CPTAPP.Api.ViewModels;
 using CPTAPP.Business.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -8,9 +9,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace CPTAPP.Api.Controllers
+namespace CPTAPP.Api.V1.Controllers
 {
-    [Route("api/produtos")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/produtos")]
     public class ProdutosController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;
@@ -65,17 +67,17 @@ namespace CPTAPP.Api.Controllers
             {
                 NotificarErro("Os ids informados são diferentes!");
                 return CustomResponse();
-            } 
+            }
 
             var produtoAtualizacao = await ObterProduto(id);
             produtoViewModel.Imagem = produtoAtualizacao.Imagem;
 
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            if(produtoViewModel.ImagemUpload != null)
+            if (produtoViewModel.ImagemUpload != null)
             {
                 var imagemNome = Guid.NewGuid() + "_" + produtoViewModel.Imagem;
-                if(!UploadArquivo(produtoViewModel.Imagem, imagemNome))
+                if (!UploadArquivo(produtoViewModel.Imagem, imagemNome))
                 {
                     return CustomResponse(ModelState);
                 }
@@ -107,8 +109,8 @@ namespace CPTAPP.Api.Controllers
 
         private bool UploadArquivo(string arquivo, string imgNome)
         {
-            if(string.IsNullOrEmpty(arquivo))
-            {                 
+            if (string.IsNullOrEmpty(arquivo))
+            {
                 NotificarErro("Forneça uma imagem para este produto!");
                 return false;
             }
@@ -117,7 +119,7 @@ namespace CPTAPP.Api.Controllers
 
             var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", imgNome);
 
-            if(System.IO.File.Exists(filePath))
+            if (System.IO.File.Exists(filePath))
             {
                 NotificarErro("Já existe um arquivo com este nome!");
                 return false;

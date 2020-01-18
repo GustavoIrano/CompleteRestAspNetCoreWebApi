@@ -1,4 +1,5 @@
-﻿using CPTAPP.Api.Extensions;
+﻿using CPTAPP.Api.Controllers;
+using CPTAPP.Api.Extensions;
 using CPTAPP.Api.ViewModels;
 using CPTAPP.Business.Interfaces;
 using Microsoft.AspNetCore.Identity;
@@ -12,9 +13,10 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CPTAPP.Api.Controllers
+namespace CPTAPP.Api.V1.Controllers
 {
-    [Route("api")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}")]
     public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -53,7 +55,7 @@ namespace CPTAPP.Api.Controllers
                 return CustomResponse(await GerarJwt(registerUser.Email));
             }
 
-            foreach(var error in result.Errors)
+            foreach (var error in result.Errors)
             {
                 NotificarErro(error.Description);
             }
@@ -68,7 +70,7 @@ namespace CPTAPP.Api.Controllers
 
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
 
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
                 return CustomResponse(await GerarJwt(loginUser.Email));
             }
@@ -95,7 +97,7 @@ namespace CPTAPP.Api.Controllers
             claims.Add(new Claim(JwtRegisteredClaimNames.Nbf, ToUnixEpochDate(DateTime.UtcNow).ToString()));
             claims.Add(new Claim(JwtRegisteredClaimNames.Iat, ToUnixEpochDate(DateTime.UtcNow).ToString(), ClaimValueTypes.Integer64));
 
-            foreach(var userRole in userRoles)
+            foreach (var userRole in userRoles)
             {
                 claims.Add(new Claim("role", userRole));
             }
@@ -122,7 +124,7 @@ namespace CPTAPP.Api.Controllers
                 {
                     Id = user.Id,
                     Email = user.Email,
-                    Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value})
+                    Claims = claims.Select(c => new ClaimViewModel { Type = c.Type, Value = c.Value })
                 }
             };
         }

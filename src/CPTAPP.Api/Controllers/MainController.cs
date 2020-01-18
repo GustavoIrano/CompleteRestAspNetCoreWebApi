@@ -31,7 +31,7 @@ namespace CPTAPP.Api.Controllers
 
         protected ActionResult CustomResponse(object result = null)
         {
-            if(OperacaoValida())
+            if (OperacaoValida())
             {
                 return Ok(new
                 {
@@ -44,7 +44,7 @@ namespace CPTAPP.Api.Controllers
             {
                 success = false,
                 errors = _notificador.ObterNotificacoes().Select(n => n.Mensagem)
-            }) ;
+            });
         }
 
         protected ActionResult CustomResponse(ModelStateDictionary modelState)
@@ -57,7 +57,7 @@ namespace CPTAPP.Api.Controllers
         protected void NotificarErroModelInvalida(ModelStateDictionary modelState)
         {
             var erros = modelState.Values.SelectMany(e => e.Errors);
-            foreach(var erro in erros)
+            foreach (var erro in erros)
             {
                 var errorMessage = erro.Exception == null ? erro.ErrorMessage : erro.Exception.Message;
                 NotificarErro(errorMessage);

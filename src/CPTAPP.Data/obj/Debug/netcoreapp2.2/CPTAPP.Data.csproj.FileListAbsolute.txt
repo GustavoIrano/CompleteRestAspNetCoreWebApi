@@ -16,7 +16,6 @@ C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Debug\netcor
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Debug\netcoreapp2.2\CPTAPP.Business.dll
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Debug\netcoreapp2.2\CPTAPP.Business.pdb
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Debug\netcoreapp2.2\CPTAPP.Data.csprojAssemblyReference.cache
-C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Debug\netcoreapp2.2\CPTAPP.Data.csproj.CoreCompileInputs.cache
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Debug\netcoreapp2.2\CPTAPP.Data.AssemblyInfoInputs.cache
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Debug\netcoreapp2.2\CPTAPP.Data.AssemblyInfo.cs
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Debug\netcoreapp2.2\CPTAPP.Data.csproj.CopyComplete

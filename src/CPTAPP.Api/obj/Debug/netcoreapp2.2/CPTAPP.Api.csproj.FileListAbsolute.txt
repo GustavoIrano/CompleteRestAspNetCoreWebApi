@@ -8,7 +8,6 @@ C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcore
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\CPTAPP.Business.pdb
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\CPTAPP.Data.pdb
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.csprojAssemblyReference.cache
-C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.csproj.CoreCompileInputs.cache
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.RazorAssemblyInfo.cache
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.RazorAssemblyInfo.cs
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.AssemblyInfoInputs.cache
@@ -17,3 +16,6 @@ C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcore
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.csproj.CopyComplete
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.dll
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcoreapp2.2\CPTAPP.Api.pdb
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

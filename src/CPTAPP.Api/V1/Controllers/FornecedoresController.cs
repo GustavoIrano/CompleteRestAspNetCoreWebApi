@@ -1,5 +1,6 @@
 ﻿using AppMvc.Models;
 using AutoMapper;
+using CPTAPP.Api.Controllers;
 using CPTAPP.Api.Extensions;
 using CPTAPP.Api.ViewModels;
 using CPTAPP.Business.Interfaces;
@@ -9,10 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CPTAPP.Api.Controllers
+namespace CPTAPP.Api.V1.Controllers
 {
     [Authorize]
-    [Route("api/fornecedores")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/fornecedores")]
     public class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
@@ -37,7 +39,7 @@ namespace CPTAPP.Api.Controllers
         [HttpGet]
         public async Task<IEnumerable<FornecedorViewModel>> ObterTodos()
         {
-            var fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>( await _fornecedorRepository.ObterTodos() );
+            var fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
 
             return fornecedores;
         }
@@ -60,7 +62,7 @@ namespace CPTAPP.Api.Controllers
 
             await _fornecedorService.Adicionar(_mapper.Map<Fornecedor>(fornecedorViewModel));
 
-            return CustomResponse(fornecedorViewModel);            
+            return CustomResponse(fornecedorViewModel);
         }
 
         [ClaimsAuthorize("Fornecedor", "Atualizar")]
@@ -102,14 +104,14 @@ namespace CPTAPP.Api.Controllers
         [HttpPut("atualizar-endereco/{id:guid}")]
         public async Task<IActionResult> AtualizarEndereco(Guid id, EnderecoViewModel enderecoViewModel)
         {
-            if (id != enderecoViewModel.Id) 
+            if (id != enderecoViewModel.Id)
             {
                 NotificarErro("O id informado não é o mesmo que foi passado na query!");
                 return CustomResponse(enderecoViewModel);
             }
 
             if (!ModelState.IsValid) return CustomResponse(ModelState);
-            
+
             await _fornecedorService.AtualizarEndereco(_mapper.Map<Endereco>(enderecoViewModel));
 
             return CustomResponse(enderecoViewModel);
