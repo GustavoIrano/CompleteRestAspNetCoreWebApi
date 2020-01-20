@@ -50,6 +50,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[2.2.28, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -57,6 +65,18 @@
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[2.10.0, )"
+            },
+            "Elmah.Io.AspNetCore": {
+              "target": "Package",
+              "version": "[3.7.86, )"
+            },
+            "Elmah.Io.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[3.7.86, )"
+            },
+            "Elmah.Io.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.5.50, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",

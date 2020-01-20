@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CPTAPP.Api.Configuration;
+using CPTAPP.Api.Extensions;
 using CPTAPP.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,6 +32,7 @@ namespace CPTAPP.Api
             services.AddAutoMapper(typeof(Startup));
             services.WebApiConfig();
             services.AddSwaggerConfig();
+            services.AddLoggingConfiguration(Configuration);
             services.ResolveDependencies();
         }
 
@@ -49,8 +51,10 @@ namespace CPTAPP.Api
             }
 
             app.UseAuthentication();
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseMvcConfiguration();
             app.UseSwaggerConfig(provider, env);
+            app.UseLoggingConfiguration();
         }
     }
 }
