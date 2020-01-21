@@ -10,3 +10,14 @@ C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CP
 C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.csproj.CopyComplete
 C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.dll
 C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.pdb
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Data.deps.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Data.dll
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Data.pdb
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Business.dll
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\bin\Release\netcoreapp2.2\CPTAPP.Business.pdb
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.csprojAssemblyReference.cache
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.AssemblyInfoInputs.cache
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.AssemblyInfo.cs
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.csproj.CopyComplete
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.dll
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Data\obj\Release\netcoreapp2.2\CPTAPP.Data.pdb

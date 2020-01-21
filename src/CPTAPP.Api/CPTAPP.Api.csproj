@@ -30,4 +30,10 @@
     <Folder Include="wwwroot\imagens\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="appsettings.Staging.Production.json">
+      <DependentUpon>appsettings.Staging.json</DependentUpon>
+    </Content>
+  </ItemGroup>
+
 </Project>

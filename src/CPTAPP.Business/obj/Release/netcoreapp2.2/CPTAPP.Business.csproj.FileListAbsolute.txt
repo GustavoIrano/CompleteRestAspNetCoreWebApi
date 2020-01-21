@@ -7,3 +7,11 @@ C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Business\obj\Release\netcoreapp2.
 C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.AssemblyInfo.cs
 C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.dll
 C:\NetCoreProjects\MyCompleteAppMVC\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.pdb
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\bin\Release\netcoreapp2.2\CPTAPP.Business.deps.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\bin\Release\netcoreapp2.2\CPTAPP.Business.dll
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\bin\Release\netcoreapp2.2\CPTAPP.Business.pdb
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.csprojAssemblyReference.cache
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.AssemblyInfoInputs.cache
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.AssemblyInfo.cs
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.dll
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Business\obj\Release\netcoreapp2.2\CPTAPP.Business.pdb

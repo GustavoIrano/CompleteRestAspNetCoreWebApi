@@ -57,7 +57,7 @@ namespace CPTAPP.Api.Configuration
                                                                 IApiVersionDescriptionProvider provider,
                                                                 IHostingEnvironment env)
         {
-            if(!env.IsDevelopment()) app.UseMiddleware<SwaggerAuthorizedMiddleware>();
+            //if(!env.IsDevelopment()) app.UseMiddleware<SwaggerAuthorizedMiddleware>();
 
             app.UseSwagger();
             app.UseSwaggerUI(s =>

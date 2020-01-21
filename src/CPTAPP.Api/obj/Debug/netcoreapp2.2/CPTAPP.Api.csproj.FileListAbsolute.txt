@@ -19,3 +19,8 @@ C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\obj\Debug\netcore
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.json
 C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Production.Development.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Production.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Staging.Development.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Staging.json
+C:\NetCoreProjects\CompleteRestAspNetCoreWebApi\src\CPTAPP.Api\bin\Debug\netcoreapp2.2\appsettings.Staging.Production.json
